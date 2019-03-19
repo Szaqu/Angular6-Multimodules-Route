@@ -1,0 +1,32 @@
+#contener {
+  background-color:#fff;
+}
+
+#contener .header {
+  padding:20px;
+  background-color:#fb0606;
+  width:100%;
+  margin:0 auto;
+}
+
+#contener .menu {
+  background-color:grey;
+}
+
+#contener .menu ul li{
+  display: inline-block;
+  width: auto;
+  list-style: outside none none;
+}
+
+#contener .menu ul li a{
+  color:#000;
+}
+
+#contener .menu ul li a:hover{
+  text-decoration:underline;
+}
+
+#contener .body {
+  padding:20px;
+}

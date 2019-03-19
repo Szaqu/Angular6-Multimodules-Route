@@ -1,0 +1,16 @@
+<div id="contener">
+  <div class="header">
+    Example Menu -> Multimodules Route
+  </div>
+  <div class="menu">
+    <ul>
+      <li *ngFor="let rlink of routerLinks;">
+        <a class="nav-link" href="#" [routerLink]="[rlink.link]"><{{rlink.name}}></a>
+      </li>
+    </ul>
+  </div>
+
+  <div class="body">
+    <router-outlet></router-outlet>
+  </div>
+</div>
